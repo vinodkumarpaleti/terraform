@@ -12,7 +12,7 @@ variable "zone_id" {
 }
 
 variable "domain" {
-  default = "jcglobalit.online"
+  default = "jcglobalit.online"  #my domain name
 }
 
 variable "isPROD" {
