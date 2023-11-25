@@ -20,10 +20,10 @@ variable "instances" {
 }
 
 variable "zone_id" {
-  default = "Z02954502A6LVQUVQ4MZL"
+  default = "Z02954502A6LVQUVQ4MZL" #my domain id
 }
 variable "domain" {
-  default = "jcglobalit.online"
+  default = "jcglobalit.online" #my domain name
 }
 
 variable "ingress" {
