@@ -13,7 +13,8 @@ resource "aws_security_group" "allow_all" {
     egress {
         from_port        = 0
         to_port          = 0
-        protocol         = "-1" #all protocols
+        protocol         = "-1" #allow all protocols
         cidr_blocks      = var.sg_cidr
     }
 }
+
