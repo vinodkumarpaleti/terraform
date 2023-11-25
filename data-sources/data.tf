@@ -27,7 +27,7 @@ resource "aws_security_group" "allow-http" {
 
     ingress {
         description      = "Allowing all inbound traffic"
-        from_port        = 80 # this is number
+        from_port        = 80 # this is port number 
         to_port          = 80
         protocol         = "tcp"
         cidr_blocks      = ["0.0.0.0/0"]
