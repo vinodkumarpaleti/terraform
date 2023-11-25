@@ -27,4 +27,5 @@ resource "aws_instance" "file-function" {
   key_name = aws_key_pair.deployer.key_name
 }
 
-# MongoDB Cart Catalogue User Redis MySQL RabbitMQ Shipping Payment Web
+# MongoDB Cart Catalogue User Redis MySQL RabbitMQ Shipping Payment Web 
+# Sample text for git push
